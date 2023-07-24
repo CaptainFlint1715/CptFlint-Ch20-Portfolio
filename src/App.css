@@ -5,3 +5,8 @@
 
 /* Import the utility styles */
 @import 'tailwindcss/utilities';
+
+.shadow-glow {
+    /* Customize the color and size as desired */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+  }

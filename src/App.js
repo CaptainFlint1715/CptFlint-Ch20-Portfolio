@@ -35,7 +35,7 @@ function App() {
   return (
     <div className='font-rem flex flex-col min-h-screen'>
       <div className="header-app">
-        <Header handlePage={handlePage} />
+        <Header handlePage={handlePage} page={page}/>
       </div>
       <div className="content flex-grow bg-black text-white">{renderPage()}</div>
       <div className="footer-app">

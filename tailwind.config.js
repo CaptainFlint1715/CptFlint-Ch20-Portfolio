@@ -11,8 +11,7 @@ module.exports = {
     },
     fontFamily: {
       rem: ['REM', 'sans-serif']
-    }
-  },
-  plugins: [],
+    },
+    plugins: [],
+  }
 }
-

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-// import './App.css';
+import './App.css';
 import Header from './components/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -33,14 +33,14 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='font-rem flex flex-col min-h-screen'>
       <div className="header-app">
         <Header handlePage={handlePage} />
       </div>
-      <div className="content">{renderPage()}</div>
-      {/* <div className="footer-app">
+      <div className="content flex-grow bg-black text-white">{renderPage()}</div>
+      <div className="footer-app">
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }

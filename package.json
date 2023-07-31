@@ -1,12 +1,14 @@
 {
-  "name": "bucket-list",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://captainflint1715.github.io/cptflint-ch20-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.27",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
@@ -17,6 +19,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

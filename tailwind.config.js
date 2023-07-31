@@ -8,6 +8,7 @@ module.exports = {
       'white': '#ffffff',
       'gold': '#ff9933',
       'black': '#000000',
+      'purple': '#6050dc'
     },
     fontFamily: {
       rem: ['REM', 'sans-serif']

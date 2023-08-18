@@ -5,6 +5,7 @@ import socImg from '../assets/images/soc.png';
 import weatherImg from '../assets/images/weather.png';
 import quizImg from '../assets/images/quiz.png';
 import scheduleImg from '../assets/images/schedule.png';
+import dreamImg from '../assets/images/dreamscape.png'
 
 const projects = [
     {
@@ -16,39 +17,40 @@ const projects = [
     },
     {
         id: 2,
+        title: 'Dreamscape',
+        imageUrl: dreamImg,
+        link: 'https://captainflint1715.github.io/CaptainFlint-Challenge5-Scheduler/',
+        gitLink: 'https://whispering-crag-58704-755d34513186.herokuapp.com/',
+    },
+    {
+        id: 3,
         title: 'Perusing the Parks',
         imageUrl: npsImg,
         link: 'https://captainflint1715.github.io/Perusing-the-Parks/',
         gitLink: 'https://github.com/CaptainFlint1715/Perusing-the-Parks',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Social Network API',
         imageUrl: socImg,
         link: 'https://app.screencastify.com/manage/videos/Bid5TKMmcg8ffzFJnQHL',
         gitLink: 'https://github.com/CaptainFlint1715/CptFlint-Ch118-SocNetAPI',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Weather Dashboard',
         imageUrl: weatherImg,
         link: 'https://captainflint1715.github.io/Cptn.FlintChallenge-6-WeatherDashboard/',
         gitLink: 'https://github.com/CaptainFlint1715/Cptn.FlintChallenge-6-WeatherDashboard',
     },
     {
-        id: 5,
+        id: 6,
         title: 'JavaScript Quizgame',
         imageUrl: quizImg,
         link: 'https://captainflint1715.github.io/CaptainFlint-javascript-quizgame/',
         gitLink: 'https://github.com/CaptainFlint1715/CaptainFlint-javascript-quizgame',
     },
-    {
-        id: 6,
-        title: 'Schedule Planner',
-        imageUrl: scheduleImg,
-        link: 'https://captainflint1715.github.io/CaptainFlint-Challenge5-Scheduler/',
-        gitLink: 'https://github.com/CaptainFlint1715/CaptainFlint-Challenge5-Scheduler',
-    },
+
 ]
 
 function Portfolio() {

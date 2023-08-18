@@ -4,7 +4,6 @@ import npsImg from '../assets/images/nps.png';
 import socImg from '../assets/images/soc.png';
 import weatherImg from '../assets/images/weather.png';
 import quizImg from '../assets/images/quiz.png';
-import scheduleImg from '../assets/images/schedule.png';
 import dreamImg from '../assets/images/dreamscape.png'
 
 const projects = [
@@ -19,8 +18,8 @@ const projects = [
         id: 2,
         title: 'Dreamscape',
         imageUrl: dreamImg,
-        link: 'https://captainflint1715.github.io/CaptainFlint-Challenge5-Scheduler/',
-        gitLink: 'https://whispering-crag-58704-755d34513186.herokuapp.com/',
+        link: 'https://whispering-crag-58704-755d34513186.herokuapp.com/',
+        gitLink: 'https://github.com/CaptainFlint1715/CptFlint-Ch20-Portfolio',
     },
     {
         id: 3,

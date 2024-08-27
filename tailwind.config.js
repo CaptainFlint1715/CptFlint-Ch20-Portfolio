@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      'red': '#45172d',
+      'red': '#ed0750',
       'white': '#ffffff',
       'gold': '#ff9933',
-      'black': '#000000',
+      'black': '#211c45',
       'purple': '#6050dc'
     },
     fontFamily: {
@@ -16,3 +16,4 @@ module.exports = {
     plugins: [],
   }
 }
+

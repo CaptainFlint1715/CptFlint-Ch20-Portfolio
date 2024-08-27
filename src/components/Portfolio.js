@@ -18,8 +18,8 @@ const projects = [
         id: 2,
         title: 'Dreamscape',
         imageUrl: dreamImg,
-        link: 'https://whispering-crag-58704-755d34513186.herokuapp.com/',
-        gitLink: 'https://github.com/CaptainFlint1715/CptFlint-Ch20-Portfolio',
+        link: 'https://dreamscape.fly.dev/',
+        gitLink: 'https://github.com/AndrewNalley/dreamscape',
     },
     {
         id: 3,

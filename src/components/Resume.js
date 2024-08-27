@@ -20,7 +20,8 @@ function Resume() {
                 download='resume.pdf'
             >
                 RESUME
-            </a>
+            </a> 
+            
         </div>
     )
 }
